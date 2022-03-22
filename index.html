@@ -4,12 +4,244 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Alef Web Shop</title>
-        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="assets/css/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     </head>
     <body>
-        <script src="./js/app.js"></script>
+            <header class="header">
+                <header class="header_inner">
+                    <div class="header_inner--Logo">
+                        <h1>LOGO</h1>
+                    </div>
+                    <nav class="nav_menu">
+                        <a href=""#><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="8.45945" cy="4.18919" r="3.68919" stroke="#333333"/>
+                            <path d="M0.5 15.3379H15.5" stroke="#333333"/>
+                            <path d="M0.5 15.84C0.5 12.4347 4.84699 9.91339 8.21429 10.0023C11.4328 10.0872 15.5 12.4347 15.5 15.84" stroke="#333333"/>
+                            </svg>
+                        </a>
+                        <a href=""#><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7.90002 3.0948C6.69981 -2.52108 -2.59119 1.90389 1.76037 7.60175C6.11193 13.2996 8.40002 15.4908 8.40002 15.4908" stroke="#333333"/>
+                            <path d="M7.89415 3.0948C9.09435 -2.52108 18.7304 1.90389 14.3789 7.60175C10.0273 13.2996 7.70001 15.5 7.70001 15.5" stroke="#333333"/>
+                            <path d="M7.39099 2.70752L8.4043 2.70757L8.38337 3.24079H7.39099V2.70752Z" fill="#333333"/>
+                            </svg>
+                        </a>
+                        <a href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5.25468 10.5659C5.13958 9.11201 6.2884 7.86865 7.74689 7.86865H16.2531C17.7116 7.86865 18.8604 9.11201 18.7453 10.566L18.2203 17.1975C18.1174 18.4977 17.0323 19.5002 15.7281 19.5002H8.27189C6.96769 19.5002 5.88261 18.4977 5.77968 17.1975L5.25468 10.5659Z" stroke="#333333"/>
+                            <path d="M7.99999 12.5C7.99999 12.5 7.78329 4 12 4C16.2167 4 16 12.5 16 12.5" stroke="#333333"/>
+                            </svg>
+                        </a>
+                    </nav>
+                </header>
+            </header>
+            <div class="container">
+                <main>
+                    <div class="oder">
+                    <div class="oder_image">
+                        <img class="oder_image--main" src="assets/images/oder/boy.png">
+                        <img class="oder_image--small" src="assets/images/oder/oderSmall/1.png">
+                        <img class="oder_image--small one" src="assets/images/oder/oderSmall/2.png">
+                        <img class="oder_image--small two" src="assets/images/oder/oderSmall/3.png">
+                        <img class="oder_image--small three" src="assets/images/oder/oderSmall/4.png">
+                        <img class="oder_image--small four" src="assets/images/oder/oderSmall/5.png">
+                    </div>
+                    <div class="oder_description">
+                        <h1>Пижама для девочек</h1>
+                        <p class="article">Арт. 02765/46</p>
+                        <p class="rating">Отзывы <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                        14 отзывов</p>
+                        <div class="price_block">
+                            <span class="price">800 &#8381;</span> <s>1 500 &#8381;</s>
+                            <div class="price_block--actions">
+                            <p class="price_block--action">Скидка -36%</p><p class="price_block--action">Акция -20%</p>
+                            </div>
+                        </div>
+                        <div class="select_block">
+                            <select class="select_size" name="size" size="1">
+                                <option value="">Выбрать размер</option>
+                                <option value="32">32</option>
+                                <option value="34">34</option>
+                            </select>
+                            <img class="line" src="./assets/images/line.png">
+                            <p class="size_info"><a href="#">Определить размер</a></p>
+                        </div>
+                        <div class="buttons">
+                            <p class="button_addDelete">
+                                <span class="plus">+</span>
+                                <span class="number">1</span>
+                                <span class="minus">-</span>  
+                            </p>
+                            <button class="addToCart" type="button">Добавить в корзину</button>
+                            <button class="like" type="button"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.90002 3.0948C6.69981 -2.52108 -2.59119 1.90389 1.76037 7.60175C6.11193 13.2996 8.40002 15.4908 8.40002 15.4908" stroke="#fff"/>
+                                <path d="M7.89415 3.0948C9.09435 -2.52108 18.7304 1.90389 14.3789 7.60175C10.0273 13.2996 7.70001 15.5 7.70001 15.5" stroke="#fff"/>
+                                <path d="M7.39099 2.70752L8.4043 2.70757L8.38337 3.24079H7.39099V2.70752Z" fill="#fff"/>
+                                </svg></button>
+                        </div>
+                        <p class="size_info buy"><a href="#">Купить в 1 клик</a></p>
+                        <hr>
+                        <div class="links_buttons">
+                            <svg class="clothes" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="8" cy="8" r="7" stroke="#333333"/>
+                                <path d="M4 6C4.24928 6 6.75787 4.5 6.75787 4.5H8.00429H9.25071C9.25071 4.5 11.7507 6 12 6" stroke="#333333"/>
+                                <path d="M4.01577 5.39283L4.01576 7.17806L5.76075 7.4756L5.76075 11.9386" stroke="#333333"/>
+                                <path d="M11.9842 5.39283L11.9842 7.17806L10.2393 7.4756L10.2478 11.9386" stroke="#333333"/>
+                                <line x1="5.51145" y1="11.4385" x2="10.4971" y2="11.4385" stroke="#333333"/>
+                                <path d="M6.50859 4.5C6.50859 4.5 7.00716 6.28522 8.00429 6.28522C9.00142 6.28522 9.49999 4.5 9.49999 4.5" stroke="#333333"/>
+                                </svg>
+                                <span class="size_info"><a href="#">Описание товара</a></span>
+                                <svg class="clock" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="9" cy="9" r="7" fill="white" stroke="#333333"/>
+                                    <path d="M8.55453 4.5L8.55453 9.70613L12.5 12" stroke="#333333"/>
+                                </svg>
+                                <p class="size_info"><a href="#">Доставка и возврат</a></p>
+                                <svg class="card" width="14" height="10" viewBox="0 0 14 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="0.5" y="0.5" width="13" height="9" rx="0.5" stroke="#333333"/>
+                                    <rect x="1" y="3" width="12" height="2" fill="#333333"/>
+                                    </svg>
+                                <p class="size_info"><a href="#">Способы оплаты</a></p>
+                        </div>
+                    </div>
+                    </div>
+                    <p class="size_info styles"><a href="#">Посмотреть все стили</a></p>
+                    <section class="section_fotos">
+                        <div class="section_fotos--main">
+                            <img src="./assets/images/sectionFotos/1.png">
+                        </div>
+                        <div class="blocks">
+                            <div class="section_fotos--Block first">
+                                <div class="blocksPhoto"><a href="#"><img src="./assets/images/sectionFotos/2.png">
+                                    <div class="blocksPhoto_cart">
+                                        <svg width="32" height="35" viewBox="0 0 32 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0.752161 10.9953C0.638177 9.54198 1.78674 8.2998 3.24451 8.2998H28.7555C30.2133 8.2998 31.3618 9.54198 31.2478 10.9953L29.5851 32.1953C29.4831 33.4962 28.3976 34.4998 27.0927 34.4998H4.90725C3.60235 34.4998 2.51694 33.4962 2.41491 32.1953L0.752161 10.9953Z" stroke="white"/>
+                                            <path d="M7.004 18.4857C7.004 18.4857 6.54373 1 15.5 1C24.4563 1 23.996 18.4857 23.996 18.4857" stroke="white"/>
+                                            </svg>
+                                    </div>
+                                    <p class="blocksPhoto_info">Узнай, что на мне</p>
+                                    </a>
+                                    <a href="" ><svg class="blocksPhoto_info--open" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="0.5" y="2.5" width="13" height="13" rx="1.5" stroke="white"/>
+                                        <path d="M2.33784 2.63126L2.33784 2.49958C2.33784 1.39501 3.23327 0.499584 4.33784 0.499585L13.5 0.49959C14.6045 0.49959 15.5 1.39502 15.5 2.49959L15.5 11.9382C15.5 12.9853 14.5159 13.7537 13.5 13.4997V13.4997" stroke="white"/>
+                                    </svg></a>
+                                    <div class="blocksPhoto_info--like">
+                                        <a href="#"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M8.42873 3.25725L9.76116 1.03654L13.1965 1.46595L14.5 3.63849V6.32062L8.01449 14.1959L1.93878 6.2507L1.05633 4.04458L2.34555 1.89588L5.35443 0.606363L7.61587 3.32009L8.06654 3.86089L8.42873 3.25725Z" fill="white" stroke="white"/>
+                                            <path d="M7.9 3.0948C6.6998 -2.52108 -2.59121 1.90389 1.76035 7.60175C6.11191 13.2996 8.40001 15.4908 8.40001 15.4908" stroke="white"/>
+                                            <path d="M7.89413 3.0948C9.09434 -2.52108 18.7304 1.90389 14.3788 7.60175C10.0273 13.2996 7.7 15.5 7.7 15.5" stroke="white"/>
+                                            <path d="M7.39098 2.70752L8.40429 2.70757L8.38335 3.24079H7.39098V2.70752Z" fill="white"/>
+                                        </svg></a>
+                                        <span>200</span> 
+                                    </div>                       
+                                </div>
+                                <div class="blocksPhoto"><img src="./assets/images/sectionFotos/4.png">
+                                    <div class="blocksPhoto_cart">
+                                        <svg width="32" height="35" viewBox="0 0 32 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0.752161 10.9953C0.638177 9.54198 1.78674 8.2998 3.24451 8.2998H28.7555C30.2133 8.2998 31.3618 9.54198 31.2478 10.9953L29.5851 32.1953C29.4831 33.4962 28.3976 34.4998 27.0927 34.4998H4.90725C3.60235 34.4998 2.51694 33.4962 2.41491 32.1953L0.752161 10.9953Z" stroke="white"/>
+                                            <path d="M7.004 18.4857C7.004 18.4857 6.54373 1 15.5 1C24.4563 1 23.996 18.4857 23.996 18.4857" stroke="white"/>
+                                            </svg>
+                                    </div>
+                                    <p class="blocksPhoto_info">Узнай, что на мне</p>
+                                    </a>
+                                    <a href="" ><svg class="blocksPhoto_info--open" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="0.5" y="2.5" width="13" height="13" rx="1.5" stroke="white"/>
+                                        <path d="M2.33784 2.63126L2.33784 2.49958C2.33784 1.39501 3.23327 0.499584 4.33784 0.499585L13.5 0.49959C14.6045 0.49959 15.5 1.39502 15.5 2.49959L15.5 11.9382C15.5 12.9853 14.5159 13.7537 13.5 13.4997V13.4997" stroke="white"/>
+                                    </svg></a>
+                                    <div class="blocksPhoto_info--like">
+                                        <a href="#"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M8.42873 3.25725L9.76116 1.03654L13.1965 1.46595L14.5 3.63849V6.32062L8.01449 14.1959L1.93878 6.2507L1.05633 4.04458L2.34555 1.89588L5.35443 0.606363L7.61587 3.32009L8.06654 3.86089L8.42873 3.25725Z" fill="white" stroke="white"/>
+                                            <path d="M7.9 3.0948C6.6998 -2.52108 -2.59121 1.90389 1.76035 7.60175C6.11191 13.2996 8.40001 15.4908 8.40001 15.4908" stroke="white"/>
+                                            <path d="M7.89413 3.0948C9.09434 -2.52108 18.7304 1.90389 14.3788 7.60175C10.0273 13.2996 7.7 15.5 7.7 15.5" stroke="white"/>
+                                            <path d="M7.39098 2.70752L8.40429 2.70757L8.38335 3.24079H7.39098V2.70752Z" fill="white"/>
+                                        </svg></a>
+                                        <span>250</span> 
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="section_fotos--Block">
+                                <div class="blocksPhoto"><img src="./assets/images/sectionFotos/3.png">
+                                    <div class="blocksPhoto_cart">
+                                        <svg width="32" height="35" viewBox="0 0 32 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0.752161 10.9953C0.638177 9.54198 1.78674 8.2998 3.24451 8.2998H28.7555C30.2133 8.2998 31.3618 9.54198 31.2478 10.9953L29.5851 32.1953C29.4831 33.4962 28.3976 34.4998 27.0927 34.4998H4.90725C3.60235 34.4998 2.51694 33.4962 2.41491 32.1953L0.752161 10.9953Z" stroke="white"/>
+                                            <path d="M7.004 18.4857C7.004 18.4857 6.54373 1 15.5 1C24.4563 1 23.996 18.4857 23.996 18.4857" stroke="white"/>
+                                            </svg>
+                                    </div>
+                                    <p class="blocksPhoto_info">Узнай, что на мне</p>
+                                    </a>
+                                    <a href="" ><svg class="blocksPhoto_info--open" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="0.5" y="2.5" width="13" height="13" rx="1.5" stroke="white"/>
+                                        <path d="M2.33784 2.63126L2.33784 2.49958C2.33784 1.39501 3.23327 0.499584 4.33784 0.499585L13.5 0.49959C14.6045 0.49959 15.5 1.39502 15.5 2.49959L15.5 11.9382C15.5 12.9853 14.5159 13.7537 13.5 13.4997V13.4997" stroke="white"/>
+                                    </svg></a>
+                                    <div class="blocksPhoto_info--like">
+                                        <a href="#"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M8.42873 3.25725L9.76116 1.03654L13.1965 1.46595L14.5 3.63849V6.32062L8.01449 14.1959L1.93878 6.2507L1.05633 4.04458L2.34555 1.89588L5.35443 0.606363L7.61587 3.32009L8.06654 3.86089L8.42873 3.25725Z" fill="white" stroke="white"/>
+                                            <path d="M7.9 3.0948C6.6998 -2.52108 -2.59121 1.90389 1.76035 7.60175C6.11191 13.2996 8.40001 15.4908 8.40001 15.4908" stroke="white"/>
+                                            <path d="M7.89413 3.0948C9.09434 -2.52108 18.7304 1.90389 14.3788 7.60175C10.0273 13.2996 7.7 15.5 7.7 15.5" stroke="white"/>
+                                            <path d="M7.39098 2.70752L8.40429 2.70757L8.38335 3.24079H7.39098V2.70752Z" fill="white"/>
+                                        </svg></a>
+                                        <span>190</span> 
+                                    </div>  
+                                </div>
+                                <div class="blocksPhoto"><img src="./assets/images/sectionFotos/5.png">
+                                    <div class="blocksPhoto_cart">
+                                        <svg width="32" height="35" viewBox="0 0 32 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0.752161 10.9953C0.638177 9.54198 1.78674 8.2998 3.24451 8.2998H28.7555C30.2133 8.2998 31.3618 9.54198 31.2478 10.9953L29.5851 32.1953C29.4831 33.4962 28.3976 34.4998 27.0927 34.4998H4.90725C3.60235 34.4998 2.51694 33.4962 2.41491 32.1953L0.752161 10.9953Z" stroke="white"/>
+                                            <path d="M7.004 18.4857C7.004 18.4857 6.54373 1 15.5 1C24.4563 1 23.996 18.4857 23.996 18.4857" stroke="white"/>
+                                            </svg>
+                                    </div>
+                                    <p class="blocksPhoto_info">Узнай, что на мне</p>
+                                    </a>
+                                    <a href="" ><svg class="blocksPhoto_info--open" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="0.5" y="2.5" width="13" height="13" rx="1.5" stroke="white"/>
+                                        <path d="M2.33784 2.63126L2.33784 2.49958C2.33784 1.39501 3.23327 0.499584 4.33784 0.499585L13.5 0.49959C14.6045 0.49959 15.5 1.39502 15.5 2.49959L15.5 11.9382C15.5 12.9853 14.5159 13.7537 13.5 13.4997V13.4997" stroke="white"/>
+                                    </svg></a>
+                                    <div class="blocksPhoto_info--like">
+                                        <a href="#"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M8.42873 3.25725L9.76116 1.03654L13.1965 1.46595L14.5 3.63849V6.32062L8.01449 14.1959L1.93878 6.2507L1.05633 4.04458L2.34555 1.89588L5.35443 0.606363L7.61587 3.32009L8.06654 3.86089L8.42873 3.25725Z" fill="white" stroke="white"/>
+                                            <path d="M7.9 3.0948C6.6998 -2.52108 -2.59121 1.90389 1.76035 7.60175C6.11191 13.2996 8.40001 15.4908 8.40001 15.4908" stroke="white"/>
+                                            <path d="M7.89413 3.0948C9.09434 -2.52108 18.7304 1.90389 14.3788 7.60175C10.0273 13.2996 7.7 15.5 7.7 15.5" stroke="white"/>
+                                            <path d="M7.39098 2.70752L8.40429 2.70757L8.38335 3.24079H7.39098V2.70752Z" fill="white"/>
+                                        </svg></a>
+                                        <span>200</span> 
+                                    </div>  
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </main>
+                <footer>
+                    <section class="section_footer">
+                        <div>
+                            <a href="#"><h1>ПОКУПАТЕЛЯМ</h1></a>
+                            <a href="#"><p>Каталог</p></a>
+                            <a href="#"><p>Акции</p></a>
+                            <a href="#"><p>Бренды</p></a>
+                        </div>
+                        <div>
+                            <a href="#"><h1>О НАС</h1></a>
+                            <a href="#"><p>О компании</p></a>
+                            <a href="#"><p>Новости</p></a>
+                            <a href="#"><p>Команда</p></a>
+                        </div>
+                        <div>
+                            <h1>УЗНАЙТЕ ПЕРВЫМИ О НОВИНКАХ И АКЦИЯХ</h1>
+                            <div class="mail_send">
+                                <div class="mail_block">
+                                    <input class="mail" type="email" name="email" placeholder="Адрес электронной почты">
+                                    <svg class="input_delete" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.700012 9.06641L9.05007 0.88337" stroke="#C4C4C4"/>
+                                        <path d="M9.25165 9.06641L0.901606 0.883353" stroke="#C4C4C4"/>
+                                        </svg>
+                                        
+                                </div>
+                            <button class="btn_send" type="button">Подписаться</button>
+                            </div>
+                        </div>
+                    </section>
+                </footer>
+            </div>
+        <script src="assets/js/app.js"></script>
+        <script src="https://kit.fontawesome.com/7a584bd250.js" crossorigin="anonymous"></script>
     </body>
 </html>
